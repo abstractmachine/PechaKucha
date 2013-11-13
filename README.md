@@ -8,8 +8,8 @@ The automator will open a file, place it into fullscreen, flip pages and then qu
 
 Sending the following SERIAL MONITOR commands (followed by "Newline") will reprogram the countdown values:
 
-`count=20`       // defines the number of slides per speaker (max=255)
-`duration=20`    // defines the length in second between each slide (max=255)
+* `count=20`       // defines the number of slides per speaker (max=255)
+* `duration=20`    // defines the length in second between each slide (max=255)
 
 Created for Atelier Temps-réel, Ecole superieure d'art d'Aix en Provence, 14 November 2013
 http://ecole-art-aix.fr
