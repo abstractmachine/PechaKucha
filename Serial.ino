@@ -16,7 +16,7 @@ void serialEvent() {
     char inChar = (char)Serial.read(); 
     // if the incoming character is a newline, set a flag
     // so the main loop can do something about it:
-    if (inChar == '\n' || input.length() > 32) {
+    if (inChar == '\n' || input.length() >= 32) {
       parseInput();
     } else {
       // add it to the inputString:
